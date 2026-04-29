@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unibank</title>
+    <link rel="stylesheet" href="unibank-main.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <a href="#" class="topbar__logo">
+          <svg
+            width="140"
+            height="36"
+            viewBox="0 0 140 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <text
+              x="0"
+              y="28"
+              font-family="Arial Black, sans-serif"
+              font-size="26"
+              font-weight="900"
+              fill="#FF6400"
+            >
+              U
+            </text>
+          </svg>
+        </a>
+        <div class="topbar__links">
+          <a href="#" class="topbar__link">Xidmət şəbəkəsi</a>
+          <a href="#" class="topbar__link">Bank haqqında</a>
+          <a href="#" class="topbar__link">Dayanıqlılıq</a>
+          <a href="#" class="topbar__link">Keşbek</a>
+          <a href="#" class="topbar__link">Tariflər</a>
+          <a href="#" class="topbar__link">İnsan Resursları</a>
+          <a href="#" class="topbar__link">Əlaqə və təkliflər</a>
+          <a href="#" class="topbar__link">F.A.Q</a>
+        </div>
+        <div class="topbar__right">
+          <a href="#" class="topbar__link topbar__link--active">Fərdi</a>
+          <a href="#" class="topbar__link">Biznes</a>
+          <button class="topbar__search">🔍</button>
+          <div class="topbar__langs">
+            <a href="#" class="topbar__lang">ENG</a>
+            <a href="#" class="topbar__lang">RUS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <nav class="header__nav">
+          <a href="#" class="header__nav-link">Kartlar</a>
+          <a href="#" class="header__nav-link">Kreditlər</a>
+          <a href="#" class="header__nav-link">Əmanətlər</a>
+          <a href="#" class="header__nav-link">Köçürmələr</a>
+          <a href="#" class="header__nav-link">Onlayn xidmətlər</a>
+          <a href="#" class="header__nav-link">Əlavə xidmətlər</a>
+          <a href="#" class="header__nav-link">Kampaniyalar</a>
+        </nav>
+        <a href="tel:117" class="header__phone">117</a>
+        <button class="header__burger" id="burgerBtn">&#9776;</button>
+      </div>
+      <div class="mobile-nav" id="mobileNav">
+        <a href="#">Kartlar</a>
+        <a href="#">Kreditlər</a>
+        <a href="#">Əmanətlər</a>
+        <a href="#">Köçürmələr</a>
+        <a href="#">Onlayn xidmətlər</a>
+        <a href="#">Əlavə xidmətlər</a>
+        <a href="#">Kampaniyalar</a>
+      </div>
+    </header>
+
+    <section class="carousel-section">
+      <div class="carousel" id="carousel">
+        <div class="carousel__track" id="carouselTrack">
+          <div
+            class="carousel__slide"
+            style="
+              background: linear-gradient(135deg, #1a3a5c 0%, #0d2340 100%);
+            "
+          >
+            <div class="frontbanner__wrapper">
+              <img
+                class="frontbanner__img-placeholder"
+                src="https://unibank.az/uploads/banners/17700180609-nagd-krredit.png"
+                alt="Kredit kampaniyası"
+                style="width: 280px; height: 280px; border-radius: 12px; object-fit: cover;"
+              />
+              <div class="frontbanner__info">
+                <div class="frontbanner__header">
+                  İndi Unibank-da kredit <br />70 000 AZN-dək!
+                </div>
+                <div class="frontbanner__desc">
+                  Arzuların üçün 70 000 AZN-dək nağd krediti Unibankdan illik
+                  cəmi 9%-dən başlayaraq və 60 aya qədər əldə edə bilərsən.
+                </div>
+                <div class="frontbanner__btns">
+                  <a
+                    href="https://onlineservices.unibank.az/OnlineLoanOffer/LoanOffer.jsp"
+                    class="btn btn--fill-white"
+                    style="color: #ff6400"
+                    target="_blank"
+                    >Sifariş et</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel__slide"
+            style="
+              background: linear-gradient(135deg, #1b4332 0%, #0a2619 100%);
+            "
+          >
+            <div class="frontbanner__wrapper">
+              <img
+                class="frontbanner__img-placeholder"
+                src="https://unibank.az/uploads/banners/1767591801kesbek-10-faiz%20(4).png"
+                alt="Keşbek kampaniyası"
+                style="width: 280px; height: 280px; border-radius: 12px; object-fit: cover;"
+              />
+              <div class="frontbanner__info">
+                <div class="frontbanner__header">Keşbek is back!</div>
+                <div class="frontbanner__desc">
+                  Artıq Unibank kartınla SOCAR, Bravo, Trendyol, Temu,
+                  Bytelecom, Push30, Baku Medical Plaza, International Medical
+                  Centre, kafe-restoran və digər kateqoriyalarda yüksək keşbek
+                  qazana bilərsən.
+                </div>
+                <div class="frontbanner__btns">
+                  <a
+                    href="https://unibank.az/cards/goto?language=az&name=cashback"
+                    class="btn btn--outline-white"
+                    >Ətraflı</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel__slide"
+            style="
+              background: linear-gradient(135deg, #2d1b69 0%, #1a0e3f 100%);
+            "
+          >
+            <div class="frontbanner__wrapper">
+              <img
+                class="frontbanner__img-placeholder"
+                src="https://unibank.az/uploads/banners/177312151710.5-depozit-500x500.png"
+                alt="Əmanət kampaniyası"
+                style="width: 280px; height: 280px; border-radius: 12px; object-fit: cover;"
+              />
+              <div class="frontbanner__info">
+                <div class="frontbanner__header">
+                  Yüksək gəlir üçün Unibank-a yatır!
+                </div>
+                <div class="frontbanner__desc">
+                  Pulunu Unibank-a yatır, illik 10.5%-dək yüksək gəlir qazan.
+                </div>
+                <div class="frontbanner__btns">
+                  <a
+                    href="https://unibank.az/az/deposits/index"
+                    class="btn btn--outline-white"
+                    >Ətraflı</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel__slide"
+            style="
+              background: linear-gradient(135deg, #1c1c1e 0%, #2c2c2e 100%);
+            "
+          >
+            <div class="frontbanner__wrapper">
+              <img
+                class="frontbanner__img-placeholder"
+                src="https://unibank.az/uploads/banners/1738570468o_1ii6npejd1us61rk61mcb4c5jeqa.png"
+                alt="Mastercard imtiyazları"
+                style="width: 280px; height: 280px; border-radius: 12px; object-fit: cover;"
+              />
+              <div class="frontbanner__info">
+                <div class="frontbanner__header">
+                  Gümüş Loqolu Unibank Mastercard imtiyazları
+                </div>
+                <div class="frontbanner__desc">
+                  Artıq gümüş loqolu Unibank Mastercard kartının eksklüziv
+                  üstünlükləri, keşbeklər, xüsusi xidmət və daha çox
+                  imkanlarından faydalana bilərsən.
+                </div>
+                <div class="frontbanner__btns">
+                  <a
+                    href="https://unibank.az/az/cards/mcAura"
+                    class="btn btn--fill-white"
+                    style="color: #ff6400"
+                    target="_blank"
+                    >Ətraflı</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel__slide"
+            style="
+              background: linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%);
+            "
+          >
+            <div class="frontbanner__wrapper">
+              <img
+                class="frontbanner__img-placeholder"
+                src="https://unibank.az/uploads/banners/1730727194kart-qaligi-banner%20(2).png"
+                alt="Kart qalığına yüksək gəlir"
+                style="width: 280px; height: 280px; border-radius: 12px; object-fit: cover;"
+              />
+              <div class="frontbanner__info">
+                <div class="frontbanner__header">
+                  Kartda yenə də yüksək gəlir var!
+                </div>
+                <div class="frontbanner__desc">
+                  Pulunu Unibank kartında saxla və illik 7%-dək yüksək gəlir
+                  qazan.
+                </div>
+                <div class="frontbanner__btns">
+                  <a
+                    href="https://unibank.az/az/menus/129/kart_qaligina_illik_7_dek"
+                    class="btn btn--outline-white"
+                    >Ətraflı</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel__slide"
+            style="
+              background: linear-gradient(135deg, #0c4a6e 0%, #075985 100%);
+            "
+          >
+            <div class="frontbanner__wrapper">
+              <img
+                class="frontbanner__img-placeholder"
+                src="https://unibank.az/uploads/banners/1728300329topla-bir-ay-5-faiz-banner-.png"
+                alt="Sərbəst Topla"
+                style="width: 280px; height: 280px; border-radius: 12px; object-fit: cover;"
+              />
+              <div class="frontbanner__info">
+                <div class="frontbanner__header">Sərbəst Topla!</div>
+                <div class="frontbanner__desc">
+                  UBank mobil tətbiqində arzuların üçün daha sürətli Topla və 1
+                  aydan sonra illik 5% gəlir qazan. Pulunu istənilən vaxt
+                  faizləri itirmədən və komissiyasız çıxar.
+                </div>
+                <div class="frontbanner__btns">
+                  <a
+                    href="https://unibank.az/az/deposits/view/2034"
+                    class="btn btn--outline-white"
+                    >Ətraflı</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel__arrow carousel__arrow--prev" id="prevBtn">
+          &#10094;
+        </button>
+        <button class="carousel__arrow carousel__arrow--next" id="nextBtn">
+          &#10095;
+        </button>
+
+        <div class="carousel__dots" id="carouselDots"></div>
+      </div>
+    </section>
+
+    <section class="quickstats">
+      <div class="container quickstats__inner">
+        <div class="quickstats__item">
+          <div class="quickstats__label">Nağd kreditlər</div>
+          <div class="quickstats__value">9% <span>-dən başlayaraq</span></div>
+          <a
+            href="https://onlineservices.unibank.az/OnlineLoanOffer/LoanOffer.jsp"
+            class="btn btn--orange btn--sm"
+            target="_blank"
+            >Sifariş et</a
+          >
+        </div>
+        <div class="quickstats__divider"></div>
+        <div class="quickstats__item">
+          <div class="quickstats__label">Əmanətlər</div>
+          <div class="quickstats__value">
+            10.5% <span>-dək illik gəlir</span>
+          </div>
+          <a
+            href="https://unibank.az/az/deposits/index"
+            class="btn btn--orange btn--sm"
+            >Ətraflı</a
+          >
+        </div>
+        <div class="quickstats__divider"></div>
+        <div class="quickstats__item">
+          <div class="quickstats__label">Kredit kartı</div>
+          <div class="quickstats__value">
+            40 <span>günədək güzəşt müddəti</span>
+          </div>
+          <a href="https://unibank.az/az/cards" class="btn btn--orange btn--sm"
+            >Ətraflı</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="appbar appbar--ucard">
+      <div class="container appbar__wrapper">
+        <div class="appbar__img-holder">
+          <img
+            src="https://unibank.az/assets/static/Ucard/ucard.webp"
+            alt="UCard"
+            style="width: 220px; height: 220px; border-radius: 16px; object-fit: cover;"
+          />
+        </div>
+        <div class="appbar__text">
+          <h2 class="appbar__heading">Sənin kartın - UCarddır!</h2>
+          <div class="appbar__desc">
+            Bu kart sənə dünyanın istənilən yerində multivalyutalı hesablarla
+            alış-veriş imkanı, 15 000 ₼-dək və 40 günədək faizsiz kredit xətti
+            əldə etmək imkanı verir. Bir sözlə, bütün ehtiyaclar tək kartda!
+          </div>
+          <div class="appbar__btns">
+            <a
+              href="https://unibank.az/az/cards/view/1998/ucard"
+              class="btn btn--orange btn--lg"
+              >Ətraflı</a
+            >
+            <a
+              href="https://unibank.az/az/cards/ucardpartners"
+              class="btn btn--outline-dark btn--lg"
+              >Partnyorlar</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="appbar appbar--ubank">
+      <div class="container appbar__wrapper">
+        <div class="appbar__text">
+          <h2 class="appbar__heading">UBank</h2>
+          <div class="appbar__desc">
+            UBank 24/7 bank xidmətlərinə çıxışı smartfonunda təmin edən mobil
+            tətbiqdir. Ödənişlərini banka gəlmədən, telefonunda bir toxunuşla
+            həyata keçir!
+          </div>
+          <div class="appbar__store-links">
+            <a
+              href="https://play.google.com/store/apps/details?id=az.unibank.mbanking"
+              class="store-btn"
+              target="_blank"
+            >
+              <span class="store-btn__icon">▶</span>
+              <span class="store-btn__text"
+                ><small>GET IT ON</small><br />Google Play</span
+              >
+            </a>
+            <a
+              href="https://itunes.apple.com/ru/app/unibank-mobile/id1073632425"
+              class="store-btn"
+              target="_blank"
+            >
+              <span class="store-btn__icon">🍎</span>
+              <span class="store-btn__text"
+                ><small>Download on the</small><br />App Store</span
+              >
+            </a>
+            <a
+              href="https://appgallery.cloud.huawei.com/ag/n/app/C102780367"
+              class="store-btn"
+              target="_blank"
+            >
+              <span class="store-btn__icon">⬡</span>
+              <span class="store-btn__text"
+                ><small>EXPLORE IT ON</small><br />AppGallery</span
+              >
+            </a>
+          </div>
+          <div class="appbar__extra-link">
+            <a href="https://unibank.az/az/ubank/index" class="btn btn--orange btn--lg">Haqqında</a>
+          </div>
+        </div>
+        <div class="appbar__img-holder">
+          <img
+            src="https://unibank.az/assets/images/appbar2.png"
+            alt="UBank Mobile App"
+            style="width: 420px; height: auto; object-fit: cover;"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="exchange-section">
+      <div class="container">
+        <div class="exchange__card">
+          <div class="exchange__header-w">
+            <div class="exchange__title">Valyuta kalkulyatoru</div>
+            <div class="exchange__subtitle">
+              Nağd məzənnə əsasında hesablanır
+            </div>
+          </div>
+          <div class="exchange__body">
+            <div class="exchangecalc">
+              <div class="exchangecalc__row">
+                <input
+                  class="exchangecalc__inp"
+                  type="number"
+                  id="fromVal"
+                  placeholder="0"
+                  min="0"
+                />
+                <select class="exchangecalc__select" id="fromCurr">
+                  <option value="USD">🇺🇸 USD</option>
+                  <option value="EUR">🇪🇺 EUR</option>
+                  <option value="RUB">🇷🇺 RUB</option>
+                  <option value="GBP">🇬🇧 GBP</option>
+                  <option value="AZN">🇦🇿 AZN</option>
+                </select>
+              </div>
+              <div class="exchangecalc__swap" id="swapBtn">⇅</div>
+              <div class="exchangecalc__row">
+                <input
+                  class="exchangecalc__inp"
+                  type="number"
+                  id="toVal"
+                  placeholder="0"
+                  min="0"
+                  readonly
+                />
+                <select class="exchangecalc__select" id="toCurr">
+                  <option value="AZN" selected>🇦🇿 AZN</option>
+                  <option value="USD">🇺🇸 USD</option>
+                  <option value="EUR">🇪🇺 EUR</option>
+                  <option value="RUB">🇷🇺 RUB</option>
+                  <option value="GBP">🇬🇧 GBP</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="network-section">
+      <div class="container">
+        <div class="network__card">
+          <img
+            src="https://unibank.az/assets/images/Bitmap.png"
+            alt="UTM və filial şəbəkəsi"
+            style="width: 100%; max-width: 400px; height: auto; margin-bottom: 16px; border-radius: 12px; object-fit: cover;"
+          />
+          <div class="network__heading">UTM və filial şəbəkəsi</div>
+          <p class="network__summary">
+            Filial və UTM-lərin ünvanları, həmçinin - iş saatları və digər
+            məlumatlar haqqında ətraflı.
+          </p>
+          <a href="https://unibank.az/locations/index" class="btn btn--orange"
+            >Daha ətraflı</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__logo">
+          <svg
+            width="120"
+            height="32"
+            viewBox="0 0 120 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <text
+              x="0"
+              y="25"
+              font-family="Arial Black, sans-serif"
+              font-size="22"
+              font-weight="900"
+              fill="#FF6400"
+            >
+              UNIBANK
+            </text>
+          </svg>
+          <p>© 2025 Unibank. Bütün hüquqlar qorunur.</p>
+        </div>
+        <div class="footer__cols">
+          <div class="footer__col">
+            <div class="footer__col-title">Xidmətlər</div>
+            <a href="#">Kartlar</a>
+            <a href="#">Kreditlər</a>
+            <a href="#">Əmanətlər</a>
+            <a href="#">Köçürmələr</a>
+          </div>
+          <div class="footer__col">
+            <div class="footer__col-title">Bank haqqında</div>
+            <a href="#">Bank haqqında</a>
+            <a href="#">Dayanıqlılıq</a>
+            <a href="#">İnsan Resursları</a>
+            <a href="#">Əlaqə</a>
+          </div>
+          <div class="footer__col">
+            <div class="footer__col-title">Əlaqə</div>
+            <a href="tel:117">📞 117</a>
+            <a href="#">Filiallar</a>
+            <a href="#">F.A.Q</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="unibank-app.js"></script>
+  </body>
+</html>

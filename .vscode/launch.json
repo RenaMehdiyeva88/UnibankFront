@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open Website",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/server.js",
+      "preLaunchTask": "Start Web Server",
+      "console": "integratedTerminal"
+    }
+  ]
+}
